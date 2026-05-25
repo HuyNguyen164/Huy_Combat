@@ -3,3 +3,11 @@
 
 #include "Gameplay/Attributes/BasicAttributeSet.h"
 
+UBasicAttributeSet::UBasicAttributeSet()
+{
+}
+
+void UBasicAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+}
