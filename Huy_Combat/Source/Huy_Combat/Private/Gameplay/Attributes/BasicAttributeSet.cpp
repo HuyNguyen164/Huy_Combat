@@ -5,6 +5,10 @@
 
 UBasicAttributeSet::UBasicAttributeSet()
 {
+	Health = 100.f;
+	MaxHealth = 100.f;
+	Stamina = 100.f;
+	MaxStamina = 100.f;
 }
 
 void UBasicAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
